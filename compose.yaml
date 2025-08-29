@@ -1,0 +1,6 @@
+services:
+  python:
+    image: python
+    build:
+      context: .
+      dockerfile: ./Dockerfile
